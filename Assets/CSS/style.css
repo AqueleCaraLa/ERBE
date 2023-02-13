@@ -88,7 +88,7 @@ a {
     display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     #btn-mobile {
         display: block;
     }
@@ -197,7 +197,7 @@ a {
 /* ===== SOBRE ===== */
 
 .logo__transp {
-    max-height: 50vh;
+    height: 50vh;
     float: left;
     padding: 55px 0;
     margin: 36px 100px 0px -87px;
@@ -295,6 +295,7 @@ a {
     width: 20vw;
     height: 36vh;
     overflow: hidden;
+    object-fit: cover;
     border: 2px solid black;
 }
 
@@ -306,27 +307,35 @@ a {
 
 #port_one, #port_two, #port_three {
     display: none;
-    padding: 0 35px;
+    padding: 0 12px;
+    height: 125vh;
 }
 
 /* Texto */
 
 .div_one_text {
-    padding-left: 750px;
-    padding-top: 132px;
+    padding-left: 0px;
+    padding-top: 0px;
 }
 
 /* Imagens Selecionada*/
 
 .port_hide_img {
-    width: 40%;
     height: auto;
     max-height: 60vh;
     float: left;
-    margin-top: 185px;
+    object-fit: cover;
     shape-rendering: auto;
     position: absolute;
-    width: 683.19px;
+    margin-top: 70rem;
+    width: 50%;
+}
+
+.port_one_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
 }
 
 #one_img_one, #two_img_one, #three_img_one {
@@ -345,16 +354,15 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
     margin-top: 50px;
     object-fit: cover;
     object-position: center;
-
+    margin-top: 40rem;
 }
 
 .small_img img {
-    width: 12vw;
-    height: 21.4vh;
+    width: 16vw;
+    height: 130%;
     object-fit: cover;
     object-position: center;
 }

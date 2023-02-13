@@ -1,0 +1,546 @@
+
+/* ===== RESPONSIVE 4K ===== */
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+    .marca__empresa p {
+        font-size: 5vw;
+    }
+
+    #sobre, #servicos, #portifolio {
+        font-size: 4vw;
+    }
+    .text p {
+        font-size: 2.2vw;
+    }
+
+    .card_s {
+        width: 350px;
+    }
+    .text-main {
+        font-size: 1.4rem;
+    }
+    .desc {
+        font-size: 1.3rem;
+    }
+
+    #port_one, #port_two, #port_three {
+        padding: 0 12px;
+        height: 145vh;
+    }
+
+    .div_one_text {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .port_one_imgs, .port_two_imgs, .port_three_imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .port_hide_img {
+        margin-top: 80rem;
+        width: 70%;
+    }
+    .port_div_img {
+        gap: 0px;
+        justify-content: space-between;
+        margin-top: 45rem;
+    }
+    .small_img img {
+        width: 16vw;
+        height: 130%;
+    }
+
+    #contato a {
+        font-size: 6vw;
+    }
+}
+
+/* ===== RESPONSIVE LAPTOP L ===== */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .text p {
+        font-size: 2.2vw;
+    }
+
+    .card_s {
+        width: 265px;
+    }
+    .text-main {
+        font-size: 1.1rem;
+    }
+    .desc {
+        font-size: 1.1rem;
+    }
+
+    .card img {
+        width: 25vw;
+        height: 29vh;
+    }
+
+    #port_one, #port_two, #port_three {
+        padding: 0 12px;
+        height: 135vh;
+    }
+
+    .div_one_text {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .port_one_imgs, .port_two_imgs, .port_three_imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .port_hide_img {
+        margin-top: 70rem;
+        width: 50%;
+    }
+    .port_div_img {
+        gap: 0px;
+        justify-content: space-between;
+        margin-top: 40rem;
+    }
+    .small_img img {
+        width: 16vw;
+        height: 130%;
+    }
+} 
+
+/* ===== RESPONSIVE LAPTOP ===== */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .marca__empresa p {
+        font-size: 8vw;
+    }
+
+    .logo__transp {
+        height: 36vh;
+        margin: 36px 40px 0px -81px;
+    }
+
+    #sobre, #servicos, #portifolio {
+        font-size: 2.5rem;
+    }
+
+    #servicos, #portifolio {
+        margin-top: -15px;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .text p {
+        font-size: 2.1vw;
+    }
+
+    .card_s {
+        width: 316px;
+        margin: 50px 0;
+    }
+    .text-main {
+        font-size: 1.1rem;
+    }
+    .desc {
+        font-size: 1.1rem;
+    }
+
+    .card img {
+        width: 34vw;
+        height: 30vh;
+    }
+
+    #port_one, #port_two, #port_three {
+        padding: 0 12px;
+        height: 95vh;
+    }
+
+    .div_one_text {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .port_one_imgs, .port_two_imgs, .port_three_imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .port_hide_img {
+        margin-top: 52rem;
+        width: 50%;
+    }
+    .port_div_img {
+        gap: 0px;
+        justify-content: space-between;
+        margin-top: 27rem;
+    }
+    .small_img img {
+        width: 16vw;
+        height: 130%;
+    }
+}
+
+/* ===== RESPONSIVE TABLET ===== */
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    .marca__empresa {
+        height: 30vh;
+    }
+
+    .marca__empresa p {
+        font-size: 8vw;
+        margin-left: -42px;
+    }
+
+    .container {
+        margin: 0 2vw;
+    }
+
+    .logo__transp {
+        width: 38vw;
+        height: auto;
+        margin: 36px 40px 0px -81px;
+    }
+
+    #sobre, #servicos, #portifolio {
+        font-size: 2em;
+    }
+
+    #servicos, #portifolio {
+        margin-top: 0px;
+    }
+
+    .servicos__container, .portifolio__container {
+        padding-left: 0px;
+        margin: 0 2vw;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .text p {
+        font-size: 2.5vw;
+    }
+
+    .card_s {
+        width: 316px;
+        margin: 50px 0;
+    }
+    .text-main {
+        font-size: 1.1rem;
+    }
+    .desc {
+        font-size: 1.1rem;
+    }
+
+    .card img {
+        width: 60vw;
+        height: 30vh;
+    }
+
+    #port_one, #port_two, #port_three {
+        padding: 0 12px;
+        height: 85vh;
+    }
+
+    .div_one_text {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .port_one_imgs, .port_two_imgs, .port_three_imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        margin-top: 0px;
+    }
+    .port_hide_img {
+        margin-top: 50rem;
+        width: 372px;
+    }
+    .port_div_img {
+        gap: 0px;
+        justify-content: space-between;
+        margin-top: 380px;
+    }
+    .small_img img {
+        width: 20vw;
+        height: 100%;
+    }
+}
+
+/* ===== RESPONSIVE MOBILE L ===== */
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .marca__empresa {
+        height: 30vh;
+    }
+
+    .marca__empresa p {
+        font-size: 8vw;
+        margin-left: -42px;
+    }
+
+    .container {
+        margin: 0 2vw;
+    }
+
+    .logo__transp {
+        width: 38vw;
+        height: auto;
+        margin: 36px 40px 0px -81px;
+    }
+
+    #sobre, #servicos, #portifolio {
+        font-size: 2em;
+    }
+
+    #servicos, #portifolio {
+        margin-top: 0px;
+    }
+
+    .servicos__container, .portifolio__container {
+        padding-left: 0px;
+        margin: 0 2vw;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .text p {
+        font-size: 2.5vw;
+    }
+
+    .card_s {
+        width: 316px;
+        margin: 50px 0;
+    }
+    .text-main {
+        font-size: 1.1rem;
+    }
+    .desc {
+        font-size: 1.1rem;
+    }
+
+    .card img {
+        width: 60vw;
+        height: 30vh;
+    }
+
+    #port_one, #port_two, #port_three {
+        padding: 0 12px;
+        height: 85vh;
+    }
+
+    .div_one_text {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .port_one_imgs, .port_two_imgs, .port_three_imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        margin-top: 0px;
+    }
+    .port_hide_img {
+        margin-top: 50rem;
+        width: 372px;
+    }
+    .port_div_img {
+        gap: 0px;
+        justify-content: space-between;
+        margin-top: 380px;
+    }
+    .small_img img {
+        width: 20vw;
+        height: 100%;
+    }
+}
+
+/* ===== RESPONSIVE MOBILE M ===== */
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .marca__empresa {
+        height: 30vh;
+    }
+
+    .marca__empresa p {
+        font-size: 8vw;
+        margin-left: -42px;
+    }
+
+    .container {
+        margin: 0 2vw;
+    }
+
+    .logo__transp {
+        width: 38vw;
+        height: auto;
+        margin: 36px 40px 0px -81px;
+    }
+
+    #sobre, #servicos, #portifolio {
+        font-size: 2em;
+    }
+
+    #servicos, #portifolio {
+        margin-top: 0px;
+    }
+
+    .servicos__container, .portifolio__container {
+        padding-left: 0px;
+        margin: 0 2vw;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .text p {
+        font-size: 2.5vw;
+    }
+
+    .card_s {
+        width: 316px;
+        margin: 50px 0;
+    }
+    .text-main {
+        font-size: 1.1rem;
+    }
+    .desc {
+        font-size: 1.1rem;
+    }
+
+    .card img {
+        width: 60vw;
+        height: 30vh;
+    }
+
+    #port_one, #port_two, #port_three {
+        padding: 0 12px;
+        height: 85vh;
+    }
+
+    .div_one_text {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .port_one_imgs, .port_two_imgs, .port_three_imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        margin-top: 0px;
+    }
+    .port_hide_img {
+        margin-top: 50rem;
+        width: 372px;
+    }
+    .port_div_img {
+        gap: 0px;
+        justify-content: space-between;
+        margin-top: 380px;
+    }
+    .small_img img {
+        width: 20vw;
+        height: 100%;
+    }
+}
+
+/* ===== RESPONSIVE MOBILE S ===== */
+
+@media (max-width: 320px) {
+    .marca__empresa {
+        height: 30vh;
+    }
+
+    .marca__empresa p {
+        font-size: 8vw;
+        margin-left: -42px;
+    }
+
+    .container {
+        margin: 0 2vw;
+    }
+
+    .logo__transp {
+        width: 38vw;
+        height: auto;
+        margin: 36px 40px 0px -81px;
+    }
+
+    #sobre, #servicos, #portifolio {
+        font-size: 2em;
+    }
+
+    #servicos, #portifolio {
+        margin-top: 0px;
+    }
+
+    .servicos__container, .portifolio__container {
+        padding-left: 0px;
+        margin: 0 2vw;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .text p {
+        font-size: 2.5vw;
+    }
+
+    .card_s {
+        width: 316px;
+        margin: 50px 0;
+    }
+    .text-main {
+        font-size: 1.1rem;
+    }
+    .desc {
+        font-size: 1.1rem;
+    }
+
+    .card img {
+        width: 60vw;
+        height: 30vh;
+    }
+
+    #port_one, #port_two, #port_three {
+        padding: 0 12px;
+        height: 85vh;
+    }
+
+    .div_one_text {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .port_one_imgs, .port_two_imgs, .port_three_imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        margin-top: 0px;
+    }
+    .port_hide_img {
+        margin-top: 50rem;
+        width: 372px;
+    }
+    .port_div_img {
+        gap: 0px;
+        justify-content: space-between;
+        margin-top: 380px;
+    }
+    .small_img img {
+        width: 20vw;
+        height: 100%;
+    }
+}
