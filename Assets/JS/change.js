@@ -37,22 +37,22 @@ var selectedImgThreeFour = document.querySelector('#three_img_four');
 // DIV ONE FUNCTION 
 
 selectionImgOneOne.addEventListener('click', function() {
-    if(selectedImgOneTwo.style.display === 'block'){
+    if(selectedImgOneTwo.style.display === 'block') {
         selectedImgOneTwo.style.display = 'none',
         selectionImgOneTwo.classList.remove('selected'),
         selectionImgOneTwo.classList.add('hover_img')
     }
-    if(selectedImgOneThree.style.display === 'block'){
+    if(selectedImgOneThree.style.display === 'block') {
         selectedImgOneThree.style.display = 'none',
         selectionImgOneThree.classList.remove('selected'),
         selectionImgOneThree.classList.add('hover_img')
     }
-    if(selectedImgOneFour.style.display === 'block'){
+    if(selectedImgOneFour.style.display === 'block') {
         selectedImgOneFour.style.display = 'none',
         selectionImgOneFour.classList.remove('selected'),
         selectionImgOneFour.classList.add('hover_img')
     }
-    if(selectedImgOneOne.style.display === 'none'){
+    if(selectedImgOneOne.style.display === 'none') {
         selectedImgOneOne.style.display = 'block',
         selectionImgOneOne.classList.remove('hover_img'),
         selectionImgOneOne.classList.add('selected')
@@ -64,7 +64,7 @@ selectionImgOneOne.addEventListener('click', function() {
 })
 
 selectionImgOneTwo.addEventListener('click', function() {
-    if(selectedImgOneOne.style.display === 'block'){
+    if(selectedImgOneOne.style.display === 'block') {
         selectedImgOneOne.style.display = 'none',
         selectionImgOneOne.classList.remove('selected'),
         selectionImgOneOne.classList.add('hover_img')

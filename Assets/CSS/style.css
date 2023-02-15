@@ -46,6 +46,7 @@ a {
 
 #logo img {
     width: 55%;
+    padding-left: 15px;
 }
 
 /* .scrolled {
@@ -297,6 +298,7 @@ a {
     overflow: hidden;
     object-fit: cover;
     border: 2px solid black;
+    margin-bottom: 15px;
 }
 
 .complete_div {
@@ -308,7 +310,7 @@ a {
 #port_one, #port_two, #port_three {
     display: none;
     padding: 0 12px;
-    height: 125vh;
+    height: auto;
 }
 
 /* Imagens Selecionada*/
@@ -322,7 +324,7 @@ a {
     height: auto;
     max-height: 77.2%;
     object-fit: cover;
-    position: absolute;
+    position: relative;
     width: 60%;
     padding-top: 5.6rem;
     padding-left: 5rem;
@@ -358,7 +360,7 @@ a {
 }
 
 .hover_img:hover img {
-    border: 1px solid #EC6242;
+    border: 0.5px solid #EC6242;
     transition: 300ms;
 }
 
